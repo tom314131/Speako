@@ -87,9 +87,7 @@ class _AddVoicePageState extends State<AddVoicePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     FloatingActionButton.extended(
-                      onPressed: (){
-                        Navigator.pushNamed(context, '/addVoicePage');
-                      },
+                      onPressed: (){},
                       icon: Icon(Icons.create),
                       heroTag: "createEntitiyBtn",
                       label: Text('Create'),
