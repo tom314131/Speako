@@ -20,8 +20,6 @@ class CardsToTest {
       Container(
       width: m_sizeCard,
         child: Card(
-          child: InkWell(
-            onTap: (){print(m_heading + ' was tapped');},
             child: Wrap(
               children: <Widget>[
                 Image.network(m_imageVal,
@@ -39,7 +37,6 @@ class CardsToTest {
                 )
               ],
             ),
-          ),
         )
       );
   }
