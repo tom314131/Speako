@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:speako/Utils/CreateLists.dart';
-import 'package:speako/Utils/SpeakoColors.dart';
+import 'package:speako/utils/CreateLists.dart';
+import 'package:speako/utils/SpeakoColors.dart';
 import 'package:speako/tests/CardsToTest.dart';
 
 class HomePage extends StatefulWidget {

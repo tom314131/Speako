@@ -45,9 +45,7 @@ class _InsertTextPageState extends State<InsertTextPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   FloatingActionButton.extended(
-                    onPressed: (){
-                      Navigator.pushNamed(context, '/addVoicePage');
-                    },
+                    onPressed: (){},
                     icon: Icon(Icons.loop),
                     heroTag: "generateBtn",
                     label: Text('Generate'),
